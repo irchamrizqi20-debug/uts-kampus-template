@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VidioKu - Website Mirip YouTube</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <button class="icon-btn" aria-label="Menu">☰</button>
+    <a href="#" class="logo" aria-label="Beranda"><span class="logo-mark"></span>VidioKu</a>
+  </div>
+  <form class="search" role="search">
+    <input type="search" placeholder="Telusuri" aria-label="Telusuri">
+    <button type="submit" aria-label="Cari">🔍</button>
+  </form>
+  <div class="header-right">
+    <button class="icon-btn hide-mobile" aria-label="Buat">＋</button>
+    <button class="icon-btn" aria-label="Notifikasi">🔔</button>
+    <div class="avatar">A</div>
+  </div>
+</header>
+
+<nav class="sidebar" aria-label="Navigasi utama">
+  <a href="#" class="side-item active"><span>🏠</span><span>Beranda</span></a>
+  <a href="#" class="side-item"><span>⚡</span><span>Shorts</span></a>
+  <a href="#" class="side-item"><span>📺</span><span>Langganan</span></a>
+  <div class="side-sep"></div>
+  <a href="#" class="side-item extra"><span>📚</span><span>Kamu</span></a>
+  <a href="#" class="side-item extra"><span>🕘</span><span>Histori</span></a>
+  <a href="#" class="side-item extra hide-small"><span>▶️</span><span>Video Anda</span></a>
+  <a href="#" class="side-item extra hide-small"><span>👍</span><span>Video yang disukai</span></a>
+  <div class="side-sep"></div>
+  <div class="side-title">Jelajahi</div>
+  <a href="#" class="side-item extra hide-small"><span>🔥</span><span>Trending</span></a>
+  <a href="#" class="side-item extra hide-small"><span>🎵</span><span>Musik</span></a>
+  <a href="#" class="side-item extra hide-small"><span>🎮</span><span>Gaming</span></a>
+  <a href="#" class="side-item extra hide-small"><span>📰</span><span>Berita</span></a>
+</nav>
+
+<main class="main">
+  <div class="chips" role="radiogroup" aria-label="Kategori">
+    <input type="radio" name="kategori" id="k0" checked><label class="chip" for="k0">Semua</label>
+    <input type="radio" name="kategori" id="k1"><label class="chip" for="k1">Musik</label>
+    <input type="radio" name="kategori" id="k2"><label class="chip" for="k2">Gaming</label>
+    <input type="radio" name="kategori" id="k3"><label class="chip" for="k3">Pemrograman</label>
+    <input type="radio" name="kategori" id="k4"><label class="chip" for="k4">Kuliner</label>
+    <input type="radio" name="kategori" id="k5"><label class="chip" for="k5">Teknologi</label>
+    <input type="radio" name="kategori" id="k6"><label class="chip" for="k6">Berita</label>
+    <input type="radio" name="kategori" id="k7"><label class="chip" for="k7">Olahraga</label>
+    <input type="radio" name="kategori" id="k8"><label class="chip" for="k8">Podcast</label>
+    <input type="radio" name="kategori" id="k9"><label class="chip" for="k9">Baru diunggah</label>
+  </div>
+
+  <section class="grid" aria-label="Daftar video">
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#667eea,#764ba2)">
+        <span class="thumb-icon">💻</span>
+        <span class="duration">32:15</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#c0392b">K</div>
+        <div>
+          <h3 class="title">Belajar HTML &amp; CSS dari Nol untuk Pemula</h3>
+          <div class="channel">Kode Santai</div>
+          <div class="stats">1,2 jt x ditonton • 2 minggu lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#f6d365,#fda085)">
+        <span class="thumb-icon">🍳</span>
+        <span class="duration">12:40</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#2980b9">D</div>
+        <div>
+          <h3 class="title">Resep Nasi Goreng Kampung Paling Enak</h3>
+          <div class="channel">Dapur Nusantara</div>
+          <div class="stats">850 rb x ditonton • 3 hari lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#2193b0,#6dd5ed)">
+        <span class="thumb-icon">🖥️</span>
+        <span class="duration">18:22</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#27ae60">G</div>
+        <div>
+          <h3 class="title">Review Laptop Terbaru 2026: Layak Beli?</h3>
+          <div class="channel">Gadget Kita</div>
+          <div class="stats">540 rb x ditonton • 1 minggu lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#434343,#000000)">
+        <span class="thumb-icon">🎧</span>
+        <span class="duration">1:02:00</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#8e44ad">L</div>
+        <div>
+          <h3 class="title">Lagu Santai untuk Menemani Kerja dan Belajar</h3>
+          <div class="channel">Lofi Malam</div>
+          <div class="stats">3,4 jt x ditonton • 1 bulan lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#ee9ca7,#ffdde1)">
+        <span class="thumb-icon">🌋</span>
+        <span class="duration">21:08</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#d35400">P</div>
+        <div>
+          <h3 class="title">Jelajah Bromo Saat Matahari Terbit</h3>
+          <div class="channel">Petualang ID</div>
+          <div class="stats">2,1 jt x ditonton • 5 hari lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#f7971e,#ffd200)">
+        <span class="thumb-icon">⚙️</span>
+        <span class="duration">45:30</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#16a085">K</div>
+        <div>
+          <h3 class="title">Tutorial CSS: Membuat Navbar Responsif</h3>
+          <div class="channel">Kode Santai</div>
+          <div class="stats">390 rb x ditonton • 4 hari lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#11998e,#38ef7d)">
+        <span class="thumb-icon">⚽</span>
+        <span class="duration">9:47</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#c0392b">B</div>
+        <div>
+          <h3 class="title">Highlight Pertandingan Semalam Penuh Drama</h3>
+          <div class="channel">Bola Hari Ini</div>
+          <div class="stats">1,8 jt x ditonton • 12 jam lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#e96443,#904e95)">
+        <span class="thumb-icon">🛒</span>
+        <span class="duration">10:55</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#2980b9">H</div>
+        <div>
+          <h3 class="title">Tips Hemat Belanja Bulanan untuk Anak Kos</h3>
+          <div class="channel">Hidup Hemat</div>
+          <div class="stats">720 rb x ditonton • 2 bulan lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#4568dc,#b06ab3)">
+        <span class="thumb-icon">🎙️</span>
+        <span class="duration">1:15:20</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#27ae60">N</div>
+        <div>
+          <h3 class="title">Podcast: Masa Depan Pekerjaan di Era AI</h3>
+          <div class="channel">Ngobrol Teknologi</div>
+          <div class="stats">260 rb x ditonton • 6 hari lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#8e5a3c,#c9a27a)">
+        <span class="thumb-icon">☕</span>
+        <span class="duration">8:12</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#8e44ad">D</div>
+        <div>
+          <h3 class="title">Cara Membuat Kopi Susu Gula Aren di Rumah</h3>
+          <div class="channel">Dapur Nusantara</div>
+          <div class="stats">1,1 jt x ditonton • 3 minggu lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#1f1c2c,#928dab)">
+        <span class="thumb-icon">🎮</span>
+        <span class="duration">24:03</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#d35400">G</div>
+        <div>
+          <h3 class="title">Membangun PC Gaming Rp8 Juta Terbaik</h3>
+          <div class="channel">Gadget Kita</div>
+          <div class="stats">980 rb x ditonton • 2 minggu lalu</div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="card">
+      <div class="thumb" style="background:linear-gradient(135deg,#00c6ff,#0072ff)">
+        <span class="thumb-icon">📱</span>
+        <span class="duration">28:44</span>
+      </div>
+      <div class="meta">
+        <div class="ch-avatar" style="background:#16a085">K</div>
+        <div>
+          <h3 class="title">Belajar Desain Web Responsif dengan Flexbox</h3>
+          <div class="channel">Kode Santai</div>
+          <div class="stats">310 rb x ditonton • 1 bulan lalu</div>
+        </div>
+      </div>
+    </a>
+  </section>
+</main>
+
+</body>
+</html>
